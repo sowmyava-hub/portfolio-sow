@@ -3,8 +3,8 @@ import profile_photo from '../assets/png/profile.jpeg'
 
 export const headerData = {
     name: 'Sowmya Iyer',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    title: "Software Developer | Data Engineer ",
+    desciption:"A computer science grad student having keen interest in web, software and mobile app development. Also, looking for an opportunity to work on interesting projects which can contribute to my skills and knowledge. ",
     image: profile_photo,
     resumePdf: resume
 }
