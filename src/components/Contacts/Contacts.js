@@ -46,6 +46,10 @@ function Contacts() {
 
         setOpen(false);
     };
+    const handleClick = () => {
+        console.log('Button clicked!');
+      };
+      
 
     const useStyles = makeStyles((t) => ({
         input: {
@@ -221,6 +225,7 @@ function Contacts() {
                                 <button
                                     type='submit'
                                     className={classes.submitBtn}
+                                    onClick={handleClick}
                                 >
                                     <p>{!success ? 'Send' : 'Sent'}</p>
                                     <div className='submit-icon'>
