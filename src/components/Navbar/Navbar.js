@@ -182,21 +182,6 @@ function Navbar() {
                                 </div>
                             </NavLink>
                             <NavLink
-                                to='/#skill'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <HiDocumentText
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Skills
-                                    </span>
-                                </div>
-                            </NavLink>
-                            <NavLink
                                 to='/#experience'
                                 smooth={true}
                                 spy='true'
