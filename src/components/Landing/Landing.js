@@ -13,7 +13,6 @@ import {
     FaLinkedin,
     FaGithub,
     FaYoutube,
-    FaBlogger,
     FaInstagram,
 } from 'react-icons/fa';
 
@@ -115,32 +114,6 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.youtube && (
-                            <a
-                                href={socialsData.youtube}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaYoutube
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
-                                />
-                            </a>
-                        )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )} */}
                     </div>
                 </div>
                 <img

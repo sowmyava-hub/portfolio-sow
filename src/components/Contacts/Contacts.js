@@ -8,8 +8,6 @@ import {
     // FaTwitter,
     FaLinkedinIn,
     FaGithub,
-    // FaYoutube,
-    FaBloggerB,
     FaRedditAlien,
     FaStackOverflow,
     FaCodepen,
@@ -366,36 +364,6 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaMediumM aria-label='Medium' />
-                                </a>
-                            )}
-                            {socialsData.blogger && (
-                                <a
-                                    href={socialsData.blogger}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaBloggerB aria-label='Blogger' />
-                                </a>
-                            )}
-                            {/* {socialsData.youtube && (
-                                <a
-                                    href={socialsData.youtube}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaYoutube aria-label='YouTube' />
-                                </a>
-                            )} */}
-                            {socialsData.reddit && (
-                                <a
-                                    href={socialsData.reddit}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaRedditAlien aria-label='Reddit' />
                                 </a>
                             )}
                             {socialsData.stackOverflow && (

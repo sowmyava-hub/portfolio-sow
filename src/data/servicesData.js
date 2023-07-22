@@ -22,16 +22,6 @@ export const servicesData = [
         title: 'Email Marketing',
         icon: <AiOutlineMail />
     },
-    // {
-    //     id: 4,
-    //     title: 'Internet Research',
-    //     icon: <FaInternetExplorer />
-    // },
-    // {
-    //     id: 5,
-    //     title: 'Tutoring',
-    //     icon: <FaChalkboardTeacher />
-    // },
 
     {
         id: 6,
@@ -63,11 +53,6 @@ export const servicesData = [
         title: 'Ebook Writing',
         icon: <FaTabletAlt />
     },
-    // {
-    //     id: 12,
-    //     title: 'Audio Transcription',
-    //     icon: <AiFillAudio />
-    // },
     {
         id: 13,
         title: 'Blog Posting',
