@@ -154,22 +154,10 @@ function Navbar() {
                                 </div>
                             </NavLink>
                             <NavLink
-                                to='/#services'
-                                // smooth={true}
-                                // spy='true'
-                    
-                            >
-                                <div className={classes.drawerItem}>
-                                    <BsFillGearFill
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Services
-                                    </span>
-                                </div>
-                            </NavLink>
-                            <NavLink
                                 to='/#about'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
                             >
                                 <div className={classes.drawerItem}>
                                     <FaUser className={classes.drawerIcon} />
@@ -190,6 +178,51 @@ function Navbar() {
                                     />
                                     <span className={classes.drawerLinks}>
                                         Education
+                                    </span>
+                                </div>
+                            </NavLink>
+                            <NavLink
+                                to='/#skill'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Skills
+                                    </span>
+                                </div>
+                            </NavLink>
+                            <NavLink
+                                to='/#experience'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Experience
+                                    </span>
+                                </div>
+                            </NavLink>
+                            <NavLink
+                                to='/#projects'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Projects
                                     </span>
                                 </div>
                             </NavLink>
