@@ -24,6 +24,10 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear, details}) {
 
     const classes = useStyles();
 
+    const detailsPoints = details.split('●').map((point, index) => (
+        <li key={index}>{point.trim()}</li>
+      ));
+
 
     return (
         // <Fade bottom>
@@ -35,7 +39,10 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear, details}) {
                     <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
                     <h4 style={{color: theme.tertiary}}>{jobtitle}</h4>
                     <h5 style={{color: theme.tertiary80}}>{company}</h5>
-                    <p style={{color: theme.tertiary80}}>{details}</p>
+                    {/* <p style={{color: theme.tertiary80}}>{details}</p> */}
+                    <ul style={{ color: theme.tertiary80 }}>
+                    {detailsPoints}
+                    </ul>
                 </div>
             </div>
         // </Fade>   

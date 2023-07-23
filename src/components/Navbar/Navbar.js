@@ -72,7 +72,6 @@ function Navbar() {
             height: '60px',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'space-evenly',
             padding: '20px',
             boxSizing: 'border-box',
             border: '2px solid',
@@ -100,7 +99,6 @@ function Navbar() {
         },
         drawerIcon: {
             fontSize: '1.6rem',
-            padding:'0px',
             [t.breakpoints.down('sm')]: {
                 fontSize: '1.385rem',
             },
